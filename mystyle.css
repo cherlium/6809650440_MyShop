@@ -33,7 +33,7 @@ nav a:hover {
 
 section {
     padding: 20px;
-    margin: 10px;
+    margin: 20px;
     background-color: rgb(255, 255, 255);
     border-radius: 8px;
     box-shadow: 0 1px 4px;
@@ -57,9 +57,9 @@ h3 {
 
 .product {
     border: 1px solid#ddd;
-    border-radius: 5px;
+    border-radius: 7px;
     padding: 10px;
-    background-color: #f8e9d2;
+    background-color: rgb(253, 220, 220);
     text-align: center;
     width: 200px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -130,7 +130,29 @@ progress {
     width: 100%;
 }
 
+.category-header {
+    padding: 20px;
+    margin: 20px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    box-shadow: 0 1px 4px;
+}
+
+.category-header h2 {
+  color: #b31217;
+  margin: 0;
+}
+
+.category-header p {
+  color: #333;
+  margin-top: 8px;
+  font-size: 1em;
+}
+
+
+
 footer {
+    margin: 15px;
     text-align: center;
     padding: 10px;
 }
